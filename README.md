@@ -1,22 +1,11 @@
 # Lixian115
 
-TODO: Write a gem description
+a command tool for 115 lixian wangpan  
+support add new torrents,magnet links and can download the completed tasks as well  
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'lixian115'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install lixian115
+$ gem install lixian115
 
 ## Usage
 
