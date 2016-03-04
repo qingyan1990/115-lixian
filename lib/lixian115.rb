@@ -1,10 +1,10 @@
 require "lixian115/version"
 require "thor"
-require "./lixian.rb"
+require "lixian.rb"
 
 module Lixian115
   LixianUtil = Lixian.new
-  res = JSON.parse(IO.read('~/.115cookie'))
+  res = JSON.parse(IO.read(File.expand_path('~/.115cookie')))
   cookies = {}
 
   res.each do |cookie|

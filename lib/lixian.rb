@@ -1,5 +1,5 @@
 require 'uri'
-require './http_request.rb'
+require 'http_request.rb'
 require 'json'
 require 'pathname'
 
